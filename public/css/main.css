@@ -1,0 +1,23 @@
+:root{
+    --main-color:#34495e;
+    --hover-color:#2c3e50;
+}
+body{
+    direction: rtl;
+}
+.custom-form{
+    max-width:400px;
+    margin :50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #ccc,-2px -2px 8px #ccc;
+}
+.ctm-btn{
+    background-color: var(--main-color);
+    min-width: 100px;
+    color:#fff
+}
+.ctm-btn:hover{
+    background-color: var(--hover-color);
+    color:#fff
+}
